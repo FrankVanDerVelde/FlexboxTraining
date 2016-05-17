@@ -12,13 +12,13 @@ body {
 }
 
 .vlak {
-	background-color: red;
+	background-color: deepskyblue;
 	padding: 1em;
 	margin: 1em;
 	font-family: sans-serif;
 	font-size: 1.3em;
 	line-height: 1.4em;
-	color: deepskyblue;
+	color: dodgerblue;
 	height: 14em;
 	flex: 0 0 14em;
 }
@@ -27,3 +27,4 @@ body {
 	font-size: .7em;
 	text-align: right;
 }
+

@@ -5,21 +5,13 @@ body {
 }
 
 .wrapper {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-flex-wrap: wrap;
-	    -ms-flex-wrap: wrap;
-	        flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 header {
 	padding-left: 1em;
 	width: 100%;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -27,13 +19,11 @@ header p {
 	text-align: right;
 	margin-right: 1em;
 	margin-left: auto;
-	-webkit-align-self: flex-end;
-	    -ms-flex-item-align: end;
-	        align-self: flex-end;
+	align-self: flex-end;
 }
 
 header h1 {
-	color: orange;
+	color: black;
 	letter-spacing: .1em;
 }
 
@@ -41,22 +31,12 @@ section.ow {
 	padding: 2em;
 	min-width: 15em;
 	margin: .5em;
-	background-color: #39f;
+	background-color: grey;
 	color: #eea;
 	border-radius: 1em;
-	-webkit-box-flex: 1;
-	-webkit-flex: 1 0 20%;
-	    -ms-flex: 1 0 20%;
-	        flex: 1 0 20%;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
+	flex: 1 0 20%;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
+	flex-direction: column;
 }
 
 section.ow img {
@@ -64,8 +44,8 @@ section.ow img {
 	height: auto;
 }
 
-section.pv:hover {
-	background-color: #06f;
+section.ow:hover {
+	background-color: dimgrey;
 }
 
 section.ow p:nth-last-child(2) {
@@ -75,22 +55,7 @@ section.ow p:nth-last-child(2) {
 section.ow button:last-child {
 	width: 10em;
 	padding: .5em;
-	background-color: orange;
+	background-color: darkslategray;
 	border-radius: .5em;
 	margin: auto auto 0 auto;
-}
-
-footer {
-	clear: left;
-}
-
-#adele {
-	border: 2px solid yellow;
-}
-
-#validatie img {
-    height: 3em;
-    width: auto;
-    border: 0;
-    margin: 0 .3em;
 }
